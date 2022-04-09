@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="P56-fS-pFs">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="LikeTabTraining" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ycM-pd-EGO">
+                                <rect key="frame" x="0.0" y="790.5" width="414" height="71.5"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0CC-Jt-QjU">
+                                        <rect key="frame" x="0.0" y="0.0" width="828" height="71.5"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YhM-ua-c2B">
+                                                <rect key="frame" x="0.0" y="0.0" width="828" height="71.5"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zoa-x7-yRm">
+                                                        <rect key="frame" x="0.0" y="0.0" width="103.5" height="71.5"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="plain" title="肉"/>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fp5-bv-dtM">
+                                                        <rect key="frame" x="103.5" y="0.0" width="103.5" height="71.5"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="plain" title="魚"/>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QpK-72-SPY">
+                                                        <rect key="frame" x="207" y="0.0" width="103.5" height="71.5"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="plain" title="野菜"/>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xnk-Ec-nqy">
+                                                        <rect key="frame" x="310.5" y="0.0" width="103.5" height="71.5"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="plain" title="果物"/>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4kE-aX-lW3">
+                                                        <rect key="frame" x="414" y="0.0" width="103.5" height="71.5"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="plain" title="調味料"/>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6XM-gJ-95g">
+                                                        <rect key="frame" x="517.5" y="0.0" width="103.5" height="71.5"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="plain" title="飲料"/>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aNZ-fx-q9m">
+                                                        <rect key="frame" x="621" y="0.0" width="103.5" height="71.5"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="plain" title="スイーツ"/>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Ws-p8-ZIe">
+                                                        <rect key="frame" x="724.5" y="0.0" width="103.5" height="71.5"/>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="plain" title="その他"/>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemGray4Color"/>
+                                        <constraints>
+                                            <constraint firstItem="YhM-ua-c2B" firstAttribute="width" secondItem="0CC-Jt-QjU" secondAttribute="width" id="8oI-3x-ygm"/>
+                                            <constraint firstAttribute="trailing" secondItem="YhM-ua-c2B" secondAttribute="trailing" id="K3n-Wc-mrQ"/>
+                                            <constraint firstItem="YhM-ua-c2B" firstAttribute="top" secondItem="0CC-Jt-QjU" secondAttribute="top" id="REt-tL-9jP"/>
+                                            <constraint firstItem="YhM-ua-c2B" firstAttribute="leading" secondItem="0CC-Jt-QjU" secondAttribute="leading" id="V6q-IP-89f"/>
+                                            <constraint firstAttribute="bottom" secondItem="YhM-ua-c2B" secondAttribute="bottom" id="qCc-Em-yHb"/>
+                                            <constraint firstItem="YhM-ua-c2B" firstAttribute="height" secondItem="0CC-Jt-QjU" secondAttribute="height" id="sej-Vf-7Hc"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="0CC-Jt-QjU" secondAttribute="trailing" id="6Bl-c3-dhK"/>
+                                    <constraint firstItem="0CC-Jt-QjU" firstAttribute="width" secondItem="ycM-pd-EGO" secondAttribute="width" multiplier="2" id="A7v-z2-2EQ"/>
+                                    <constraint firstItem="0CC-Jt-QjU" firstAttribute="height" secondItem="ycM-pd-EGO" secondAttribute="height" id="DS3-De-ZNn"/>
+                                    <constraint firstItem="0CC-Jt-QjU" firstAttribute="leading" secondItem="ycM-pd-EGO" secondAttribute="leading" id="GOe-wm-l0a"/>
+                                    <constraint firstAttribute="bottom" secondItem="0CC-Jt-QjU" secondAttribute="bottom" id="Oj9-Hf-3xZ"/>
+                                    <constraint firstItem="0CC-Jt-QjU" firstAttribute="top" secondItem="LGM-qC-Lcb" secondAttribute="top" id="ntz-xM-y5U"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="LGM-qC-Lcb"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="e1P-2n-Ldn"/>
+                            </scrollView>
+                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PfD-cM-NjK">
+                                <rect key="frame" x="0.0" y="727.5" width="414" height="63"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OJt-d2-Igo">
+                                        <rect key="frame" x="0.0" y="0.0" width="207" height="63"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="冷蔵庫"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ibp-rn-Idr">
+                                        <rect key="frame" x="207" y="0.0" width="207" height="63"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="冷凍庫"/>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemGray5Color"/>
+                            </stackView>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="rjn-am-OcW">
+                                <rect key="frame" x="0.0" y="88" width="414" height="639.5"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="ECU-wl-G14" customClass="TableViewCell" customModule="LikeTabTraining" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="44.5" width="414" height="43.5"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ECU-wl-G14" id="9U9-Nh-f3D">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="PfD-cM-NjK" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.07" id="Ax3-pO-bKO"/>
+                            <constraint firstItem="ycM-pd-EGO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="BRm-qV-YRu"/>
+                            <constraint firstItem="PfD-cM-NjK" firstAttribute="top" secondItem="rjn-am-OcW" secondAttribute="bottom" id="HZ1-bR-zSq"/>
+                            <constraint firstItem="PfD-cM-NjK" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="KHi-IE-h7O"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="rjn-am-OcW" secondAttribute="trailing" id="KbS-kx-Pxw"/>
+                            <constraint firstItem="ycM-pd-EGO" firstAttribute="top" secondItem="PfD-cM-NjK" secondAttribute="bottom" id="Pvc-HS-7kG"/>
+                            <constraint firstItem="rjn-am-OcW" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="TN8-Wx-HRn"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ycM-pd-EGO" secondAttribute="trailing" id="ZMZ-RK-y4A"/>
+                            <constraint firstItem="ycM-pd-EGO" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="czf-07-Ku2"/>
+                            <constraint firstItem="rjn-am-OcW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="fhl-uM-J3R"/>
+                            <constraint firstItem="ycM-pd-EGO" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.08" id="le3-U6-5Vb"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="PfD-cM-NjK" secondAttribute="trailing" id="uz9-6S-aEd"/>
+                            <constraint firstItem="ycM-pd-EGO" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="vM1-Xx-cET"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="MxT-Cy-M77">
+                        <barButtonItem key="leftBarButtonItem" style="plain" id="ahO-zO-hMu">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="KRa-DH-hx1">
+                                <rect key="frame" x="20" y="5" width="92" height="34.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="plus" catalog="system" title=""/>
+                                <connections>
+                                    <segue destination="l29-ig-tTa" kind="presentation" modalPresentationStyle="fullScreen" id="D99-mp-BB5"/>
+                                </connections>
+                            </button>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" style="plain" id="bjF-bb-3em">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="fdU-fK-bSg">
+                                <rect key="frame" x="302" y="5" width="92" height="34.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="trash" catalog="system"/>
+                            </button>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="addButton" destination="KRa-DH-hx1" id="3N2-d7-JDS"/>
+                        <outlet property="removeButton" destination="fdU-fK-bSg" id="Kft-2i-reh"/>
+                        <outlet property="table" destination="rjn-am-OcW" id="PBn-iB-d4q"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="121.73913043478262" y="71.651785714285708"/>
+        </scene>
+        <!--Modal View Controller-->
+        <scene sceneID="AqG-JT-8cL">
+            <objects>
+                <viewController id="l29-ig-tTa" customClass="ModalViewController" customModule="LikeTabTraining" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="cX5-BD-4N1">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="pnv-uA-Rea">
+                                <rect key="frame" x="0.0" y="94" width="414" height="41.5"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5H6-EX-DKW">
+                                        <rect key="frame" x="0.0" y="0.0" width="207" height="41.5"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="冷蔵"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="87N-Ph-oee">
+                                        <rect key="frame" x="207" y="0.0" width="207" height="41.5"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="冷凍"/>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemGray3Color"/>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="Fve-8C-X0Q">
+                                <rect key="frame" x="0.0" y="135.5" width="414" height="248"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UU2-Iz-txs">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="31"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="肉"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jgl-M1-CQW">
+                                        <rect key="frame" x="0.0" y="31" width="414" height="31"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="魚"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iUk-y7-dTk">
+                                        <rect key="frame" x="0.0" y="62" width="414" height="31"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="野菜"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qhI-TP-dFG">
+                                        <rect key="frame" x="0.0" y="93" width="414" height="31"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="果物"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rFR-on-09t">
+                                        <rect key="frame" x="0.0" y="124" width="414" height="31"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="調味料"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="txG-hx-krc">
+                                        <rect key="frame" x="0.0" y="155" width="414" height="31"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="飲料"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MtO-Qw-WEa">
+                                        <rect key="frame" x="0.0" y="186" width="414" height="31"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="スイーツ"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XfJ-OK-YRq">
+                                        <rect key="frame" x="0.0" y="217" width="414" height="31"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="その他"/>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemGray4Color"/>
+                            </stackView>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="食材名" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="G7v-Ac-ACX">
+                                <rect key="frame" x="62" y="413.5" width="290" height="41"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="数量" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vNe-jR-y11">
+                                <rect key="frame" x="62" y="484.5" width="124.5" height="107"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jGc-LN-JtS">
+                                <rect key="frame" x="236.5" y="484.5" width="115.5" height="107"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DgS-ia-KpH">
+                                <rect key="frame" x="62" y="621.5" width="124.5" height="51"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="取消し"/>
+                                <connections>
+                                    <action selector="cancel:" destination="l29-ig-tTa" eventType="touchUpInside" id="TxF-kv-GcP"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="70q-fa-lxe">
+                                <rect key="frame" x="236.5" y="631.5" width="124" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="保存"/>
+                                <connections>
+                                    <action selector="preserve:" destination="l29-ig-tTa" eventType="touchUpInside" id="0mn-6u-iRa"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Rd8-Ka-fTE"/>
+                        <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                        <constraints>
+                            <constraint firstItem="Rd8-Ka-fTE" firstAttribute="bottom" secondItem="DgS-ia-KpH" secondAttribute="bottom" constant="120" id="22W-NI-0z3"/>
+                            <constraint firstItem="pnv-uA-Rea" firstAttribute="height" secondItem="cX5-BD-4N1" secondAttribute="height" multiplier="0.05" id="2Cx-q0-Mhn"/>
+                            <constraint firstItem="Fve-8C-X0Q" firstAttribute="top" secondItem="pnv-uA-Rea" secondAttribute="bottom" id="3r9-Bo-m0C"/>
+                            <constraint firstItem="jGc-LN-JtS" firstAttribute="leading" secondItem="vNe-jR-y11" secondAttribute="trailing" constant="50" id="5m7-3s-iZr"/>
+                            <constraint firstItem="Rd8-Ka-fTE" firstAttribute="trailing" secondItem="pnv-uA-Rea" secondAttribute="trailing" id="8GP-Di-S6o"/>
+                            <constraint firstItem="DgS-ia-KpH" firstAttribute="top" secondItem="vNe-jR-y11" secondAttribute="bottom" constant="30" id="EVn-gL-Lnh"/>
+                            <constraint firstItem="jGc-LN-JtS" firstAttribute="height" secondItem="vNe-jR-y11" secondAttribute="height" id="Fbh-J9-x4t"/>
+                            <constraint firstItem="70q-fa-lxe" firstAttribute="width" secondItem="DgS-ia-KpH" secondAttribute="width" id="L7B-cS-EkS"/>
+                            <constraint firstItem="Fve-8C-X0Q" firstAttribute="height" secondItem="cX5-BD-4N1" secondAttribute="height" multiplier="0.3" id="Q6U-sc-8XZ"/>
+                            <constraint firstItem="Rd8-Ka-fTE" firstAttribute="trailing" secondItem="70q-fa-lxe" secondAttribute="trailing" constant="53.5" id="RtQ-fL-EDi"/>
+                            <constraint firstItem="vNe-jR-y11" firstAttribute="height" secondItem="cX5-BD-4N1" secondAttribute="height" multiplier="0.05" id="SpM-5Z-Vx5"/>
+                            <constraint firstItem="70q-fa-lxe" firstAttribute="height" secondItem="DgS-ia-KpH" secondAttribute="height" multiplier="0.607843" id="U3Y-e0-4ob"/>
+                            <constraint firstItem="DgS-ia-KpH" firstAttribute="leading" secondItem="vNe-jR-y11" secondAttribute="leading" id="Usk-nL-LEO"/>
+                            <constraint firstItem="vNe-jR-y11" firstAttribute="width" secondItem="cX5-BD-4N1" secondAttribute="width" multiplier="0.3" id="V2y-Vp-DCP"/>
+                            <constraint firstItem="G7v-Ac-ACX" firstAttribute="width" secondItem="cX5-BD-4N1" secondAttribute="width" multiplier="0.7" id="bu4-sR-ojp"/>
+                            <constraint firstItem="vNe-jR-y11" firstAttribute="top" secondItem="G7v-Ac-ACX" secondAttribute="bottom" constant="30" id="dNr-xR-u31"/>
+                            <constraint firstItem="G7v-Ac-ACX" firstAttribute="height" secondItem="cX5-BD-4N1" secondAttribute="height" multiplier="0.05" id="e39-k0-zoP"/>
+                            <constraint firstItem="vNe-jR-y11" firstAttribute="leading" secondItem="G7v-Ac-ACX" secondAttribute="leading" id="eiy-df-rvR"/>
+                            <constraint firstItem="G7v-Ac-ACX" firstAttribute="centerX" secondItem="cX5-BD-4N1" secondAttribute="centerX" id="fVP-Cc-Ca8"/>
+                            <constraint firstItem="70q-fa-lxe" firstAttribute="centerY" secondItem="DgS-ia-KpH" secondAttribute="centerY" id="fjH-Mb-rvm"/>
+                            <constraint firstItem="pnv-uA-Rea" firstAttribute="top" secondItem="Rd8-Ka-fTE" secondAttribute="top" constant="50" id="gmA-9q-FXU"/>
+                            <constraint firstItem="jGc-LN-JtS" firstAttribute="centerY" secondItem="vNe-jR-y11" secondAttribute="centerY" id="hmC-v3-lqG"/>
+                            <constraint firstItem="Rd8-Ka-fTE" firstAttribute="trailing" secondItem="Fve-8C-X0Q" secondAttribute="trailing" id="kU1-wz-aVe"/>
+                            <constraint firstItem="pnv-uA-Rea" firstAttribute="centerX" secondItem="cX5-BD-4N1" secondAttribute="centerX" id="l4E-9a-nl7"/>
+                            <constraint firstItem="DgS-ia-KpH" firstAttribute="width" secondItem="vNe-jR-y11" secondAttribute="width" id="l92-pM-EBo"/>
+                            <constraint firstItem="jGc-LN-JtS" firstAttribute="trailing" secondItem="G7v-Ac-ACX" secondAttribute="trailing" id="ntf-e4-UVH"/>
+                            <constraint firstItem="Fve-8C-X0Q" firstAttribute="leading" secondItem="Rd8-Ka-fTE" secondAttribute="leading" id="peY-KG-sBG"/>
+                            <constraint firstItem="Rd8-Ka-fTE" firstAttribute="bottom" secondItem="70q-fa-lxe" secondAttribute="bottom" constant="130" id="uNA-IQ-h8g"/>
+                            <constraint firstItem="pnv-uA-Rea" firstAttribute="leading" secondItem="Rd8-Ka-fTE" secondAttribute="leading" id="uym-o2-Rib"/>
+                            <constraint firstItem="G7v-Ac-ACX" firstAttribute="top" secondItem="Fve-8C-X0Q" secondAttribute="bottom" constant="30" id="wCk-9S-a2S"/>
+                            <constraint firstItem="70q-fa-lxe" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="DgS-ia-KpH" secondAttribute="trailing" constant="8" symbolic="YES" id="zgz-CX-cfD"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="drinkButton" destination="txG-hx-krc" id="2kM-TQ-LIG"/>
+                        <outlet property="fishButton" destination="Jgl-M1-CQW" id="NA0-Ah-FS4"/>
+                        <outlet property="foodNameTextField" destination="G7v-Ac-ACX" id="9eW-nF-jqf"/>
+                        <outlet property="freezerButton" destination="87N-Ph-oee" id="56E-wo-sQa"/>
+                        <outlet property="fruitButton" destination="qhI-TP-dFG" id="tcB-Dj-L2E"/>
+                        <outlet property="meetButton" destination="UU2-Iz-txs" id="jgX-bi-Ce1"/>
+                        <outlet property="otherButton" destination="XfJ-OK-YRq" id="irU-tn-i93"/>
+                        <outlet property="quantityTextField" destination="vNe-jR-y11" id="Mo1-75-9P6"/>
+                        <outlet property="refrigatorButton" destination="5H6-EX-DKW" id="lYu-vn-zSE"/>
+                        <outlet property="seasoningButton" destination="rFR-on-09t" id="sN8-zP-u8U"/>
+                        <outlet property="sweetButton" destination="MtO-Qw-WEa" id="nIO-qe-I9c"/>
+                        <outlet property="vegetableButton" destination="iUk-y7-dTk" id="EXV-Xd-One"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zdV-1W-bLS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="867" y="72"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="zBz-th-HEb">
+            <objects>
+                <navigationController id="P56-fS-pFs" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="iSF-0a-n58">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="Zql-8Z-4mL"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Xbf-UN-bI6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-639" y="72"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="plus" catalog="system" width="128" height="113"/>
+        <image name="trash" catalog="system" width="121" height="128"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray3Color">
+            <color red="0.7803921568627451" green="0.7803921568627451" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGray4Color">
+            <color red="0.81960784313725488" green="0.81960784313725488" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGray5Color">
+            <color red="0.89803921568627454" green="0.89803921568627454" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
